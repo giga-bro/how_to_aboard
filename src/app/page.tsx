@@ -1,10 +1,13 @@
+"use client"
 import React from 'react'
-import { redirect } from 'next/navigation';
+import { useEffect } from 'react';
 
 const page = () => {
-  redirect('/pages/home')
+  useEffect(()=>{
+    window.location.href = '/pages/home'
+  },[])
   return (
-    <div>page</div>
+    <div>loading...</div>
   )
 }
 
