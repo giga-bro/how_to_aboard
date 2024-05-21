@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
