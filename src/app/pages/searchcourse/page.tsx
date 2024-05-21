@@ -150,7 +150,7 @@ const page = () => {
   return (
     <>
       {!isMobile ? <>
-        <div className='w-[100%] h-[90%] flex justify-center items-center  '>
+          <div className='w-[100%] h-[90%] flex justify-center items-center  '>
           <div className='w-[30%] h-[100%]  flex justify-center items-center ' >
             <div className='w-[90%] h-[95%] py-[1%] flex flex-col justify-center items-center shadow-2xl rounded-2xl ' >
               <div className='w-[80%] h-[10%]  flex justify-start shadow-lg pl-[5%] items-center text-2xl rounded-lg cursor-pointer ' onClick={handleResetFilters} >
@@ -158,7 +158,7 @@ const page = () => {
                 <p className='ml-[10%]' >--Reset filters--</p>
               </div>
               <div className='w-[80%] h-[10%] flex flex-col justify-center items-center  ' >
-                <div className='w-[100%] h-[100%]  flex justify-start shadow-lg pl-[5%] items-center text-2xl rounded-lg cursor-pointer mt-[1%]' onClick={() => setNoOfItemsClicked(!noOfItemsClicked)} >
+                <div className='w-[100%] h-[100%]  flex justify-start shadow-lg pl-[5%] items-center text-lg rounded-lg cursor-pointer mt-[1%]' onClick={() => setNoOfItemsClicked(!noOfItemsClicked)} >
                   {noOfItemsClicked ? <ArrowDropDownIcon sx={{ width: "10%", height: "60%", color: "black" }} /> : <ArrowDropUpIcon sx={{ width: "10%", height: "60%", color: "black" }} />}
                   <p className='ml-[10%]'>--No of items--</p>
                 </div>
@@ -173,7 +173,7 @@ const page = () => {
 
               </div>
 
-              <div className='w-[80%] h-[30%] flex flex-col justify-center items-center text-2xl rounded-lg cursor-pointer mt-[1%] text-center'>
+              <div className='w-[80%] h-[30%] flex flex-col justify-center items-center text-lg rounded-lg cursor-pointer mt-[1%] text-center'>
                 <input type="text" placeholder='University Name' className='text-center shadow-lg w-[100%] h-[33%] outline-none border-gray-200 rounded-lg my-[1%]' value={universityName} onChange={(e: ChangeEvent<HTMLInputElement>) => setUniversityName(e.target.value)} />
                 <input type="text" placeholder='Course Name' className='text-center shadow-lg  w-[100%] h-[33%] outline-none border-gray-200 rounded-lg my-[1%]' value={courseName} onChange={(e: ChangeEvent<HTMLInputElement>) => setCourseName(e.target.value)} />
                 <input type="number" placeholder='Germany Ranking' className='text-center shadow-lg  w-[100%] h-[33%] outline-none border-gray-200 rounded-lg my-[1%]' value={germanyRanking} onChange={(e: ChangeEvent<HTMLInputElement>) => setGermanyRanking(parseInt(e.target.value))} />
@@ -181,7 +181,7 @@ const page = () => {
 
               <div className='w-[80%] h-[40%]  flex flex-col justify-center items-center' >
                 <div className='w-[100%] h-[25%] flex flex-col justify-center items-center  my-[1%] cursor-pointer ' >
-                  <div className='w-[100%] h-[100%] shadow-lg  flex justify-start pl-[5%] items-center  text-2xl rounded-lg  ' onClick={() => setCourseTypeClicked(!courseTypeClicked)} >
+                  <div className='w-[100%] h-[100%] shadow-lg  flex justify-start pl-[5%] items-center  text-lg rounded-lg  ' onClick={() => setCourseTypeClicked(!courseTypeClicked)} >
                     <AutoStoriesIcon sx={{ width: "10%", height: "60%", color: "black" }} />
                     <p className='ml-[10%]'>--Course Type--</p>
                   </div>
@@ -201,7 +201,7 @@ const page = () => {
 
                 </div>
                 <div className='w-[100%] h-[25%] flex flex-col justify-center items-center my-[1%] cursor-pointer ' >
-                  <div className='w-[100%] h-[100%] shadow-lg  flex justify-start pl-[5%] items-center  text-2xl rounded-lg ' onClick={() => setTeachingLanguageClicked(!teachingLanguageClicked)} >
+                  <div className='w-[100%] h-[100%] shadow-lg  flex justify-start pl-[5%] items-center  text-lg rounded-lg ' onClick={() => setTeachingLanguageClicked(!teachingLanguageClicked)} >
                     <ExplicitIcon sx={{ width: "10%", height: "60%", color: "black" }} />
                     <p className='ml-[10%]'>--Teaching Language--</p>
                   </div>
@@ -214,7 +214,7 @@ const page = () => {
                   }
                 </div>
                 <div className='w-[100%] h-[25%] flex flex-col justify-center items-center my-[1%] cursor-pointer ' >
-                  <div className='w-[100%] h-[100%] flex shadow-lg  justify-start pl-[5%] items-center  text-2xl rounded-lg cursor-pointer ' onClick={() => setBeginingSemesterClicked(!beginingSemesterClicked)} >
+                  <div className='w-[100%] h-[100%] flex shadow-lg  justify-start pl-[5%] items-center  text-lg rounded-lg cursor-pointer ' onClick={() => setBeginingSemesterClicked(!beginingSemesterClicked)} >
                     <SchoolIcon sx={{ width: "10%", height: "60%", color: "black" }} />
                     <p className='ml-[10%]'>--Begining Semester--</p>
                   </div>
@@ -262,14 +262,14 @@ const page = () => {
 
                     </div>
                   }
-                  <div className='w-[100%] h-[100%]  shadow-lg flex justify-start pl-[5%] items-center  text-2xl rounded-lg ' onClick={() => setDurationClicked(!durationClicked)} >
+                  <div className='w-[100%] h-[100%]  shadow-lg flex justify-start pl-[5%] items-center  text-lg rounded-lg ' onClick={() => setDurationClicked(!durationClicked)} >
                     <TimelapseIcon sx={{ width: "10%", height: "60%", color: "black" }} />
                     <p className='ml-[10%]'>--Duration--</p>
                   </div>
                 </div>
 
               </div>
-              <div className='w-[80%] h-[10%] shadow-lg  flex flex-col justify-center items-center text-2xl ' >
+              <div className='w-[80%] h-[10%] shadow-lg  flex flex-col justify-center items-center text-lg ' >
                 <p>Tution Fees - € {rangeValue} </p>
                 <input
                   id="default-range"
@@ -281,6 +281,7 @@ const page = () => {
               </div>
 
             </div>
+          </div>
           </div>
           <div className='w-[70%] h-[100%]  flex justify-center items-center overflow-y-scroll flex-wrap '>
             {courses.length > 0 && courses.map((course, index) => {
