@@ -289,26 +289,26 @@ const page = () => {
                   <div key={index} className='w-[40%] h-[50%] m-[5%]  flex justify-center items-center  rounded-xl bg-gray-100 overflow-hidden ' >
                     <div className='w-[33%] h-[100%] flex flex-col justify-center items-center ' >
                       <img src={course?.course?.image_url} alt="" className='w-[80%] h-[20%] rounded-lg' />
-                      <p className='w-[80%] h-[20%] text-sm '>{course?.university}</p>
-                      <p className='w-[80%] h-[10%] text-sm '>World ranking : {course?.world_ranking}</p>
-                      <p className='w-[80%] h-[10%] text-sm'>Germany ranking : {course?.germany_ranking}</p>
-                      <p className='w-[80%] h-[10%] text-sm'> {course?.city}</p>
-                      <p className='w-[80%] h-[10%] text-sm'>state : {course?.state}</p>
+                      <p className='w-[80%] h-[20%] text-xs '>{course?.university}</p>
+                      <p className='w-[80%] h-[10%] text-xs '>World ranking : {course?.world_ranking}</p>
+                      <p className='w-[80%] h-[10%] text-xs'>Germany ranking : {course?.germany_ranking}</p>
+                      <p className='w-[80%] h-[10%] text-xs'> {course?.city}</p>
+                      <p className='w-[80%] h-[10%] text-xs'>state : {course?.state}</p>
                     </div>
                     <div className='w-[33%] h-[100%] flex flex-col justify-start items-center' >
                       <p className='w-[100%] h-[30%] text-xl font-bold  flex justify-start items-center ' >{course?.course?.name?.length > 50 ? course?.course?.name.slice(0, 30) + '...' : course?.course?.name}</p>
-                      <p className='w-[100%] h-[20%] text-lg  flex justify-start items-center  ' >Degree : {course?.course?.degree}</p>
-                      <p className='w-[100%] h-[20%] text-lg  flex justify-start items-center ' >Stream : {course?.course?.stream.length > 30 ? course?.course?.stream.slice(0, 30) + '...' : course?.course?.stream}</p>
+                      <p className='w-[100%] h-[20%] text-xs  flex justify-start items-center  ' >Degree : {course?.course?.degree}</p>
+                      <p className='w-[100%] h-[20%] text-xs  flex justify-start items-center ' >Stream : {course?.course?.stream.length > 30 ? course?.course?.stream.slice(0, 30) + '...' : course?.course?.stream}</p>
                       <p className='w-[100%] h-[10%] text-xs  '> Beginning Semester : {course?.course?.beginning_semester}</p>
                       <p className='w-[100%] h-[10%] text-xs  '> Teach Language : {course?.course?.teaching_language}</p>
                       <p className='w-[100%] h-[10%] text-xs  '> German Grade Requirement  : {course?.course?.german_grade_requirement}</p>
                     </div>
                     <div className='w-[33%] h-[100%] flex flex-col justify-start items-center ' >
-                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-lg ' >Tution Fee : {course?.course?.tuition_fee}</p>
-                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-lg ' >Application Deadline : {course?.course?.beginning_semester} {JSON.stringify(course?.course?.application_deadline)?.length > 20 ? JSON.stringify(course?.course?.application_deadline).slice(0, 20) + '...' : JSON.stringify(course?.course?.application_deadline)}</p>
-                      <div className='w-[90%] h-[15%] flex justify-center my-[2%] items-center rounded-lg hover:bg-[white] hover:text-[#7e7ee5] hover:hover:border-[#7e7ee5] bg-[#7e7ee5] text-white cursor-pointer ' >Course Website</div>
-                      <div className='w-[90%] h-[15%] flex justify-center my-[2%] items-center rounded-lg bg-white text-[#7e7ee5] border-[#7e7ee5] hover:bg-[#7e7ee5] hover:text-white cursor-pointer ' >Submit Application</div>
-                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-lg ' >Last Updated : {course?.course?.last_updated}</p>
+                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-xs ' >Tution Fee : {course?.course?.tuition_fee}</p>
+                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-xs ' >Application Deadline : {course?.course?.beginning_semester} {JSON.stringify(course?.course?.application_deadline)?.length > 20 ? JSON.stringify(course?.course?.application_deadline).slice(0, 20) + '...' : JSON.stringify(course?.course?.application_deadline)}</p>
+                      <div className='w-[90%] h-[15%] flex text-center justify-center my-[2%] items-center rounded-lg hover:bg-[white] hover:text-[#7e7ee5] hover:hover:border-[#7e7ee5] bg-[#7e7ee5] text-white cursor-pointer ' >Course Website</div>
+                      <div className='w-[90%] h-[15%] flex text-center justify-center my-[2%] items-center rounded-lg bg-white text-[#7e7ee5] border-[#7e7ee5] hover:bg-[#7e7ee5] hover:text-white cursor-pointer ' >Submit Application</div>
+                      <p className='w-[90%] h-[20%]  flex justify-start items-center text-xs ' >Last Updated : {course?.course?.last_updated}</p>
                     </div>
                   </div>
                 </>
