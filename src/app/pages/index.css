@@ -1,0 +1,90 @@
+/* Common styles for nav links */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding-left: 10%;
+}
+
+.nav-item {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #7e7ee5;
+  flex-direction: column;
+  font-size: 0.6rem;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+    padding: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-icon {
+  width: 60%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  margin-top: 2%;
+  color: #7e7ee5;
+  transition: all 0.3s ease;
+}
+
+.nav-item p {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Hover effects */
+.nav-item:hover {
+  font-size: 0.75rem; /* Increase text size on hover */
+}
+
+.nav-item:hover .nav-icon {
+  transform: scale(1.2); /* Increase icon size on hover */
+}
+
+.nav-item:hover p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value based on your preference */
+  width: 100%;
+  height: 2px;
+  background-color: #7e7ee5;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover p::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Active state styles */
+.nav-item.active {
+  font-size: 0.75rem; /* Increase text size for active item */
+}
+
+.nav-item.active .nav-icon {
+  transform: scale(1.2); /* Increase icon size for active item */
+}
+
+.nav-item.active p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value based on your preference */
+  width: 100%;
+  height: 2px;
+  background-color: #7e7ee5;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
