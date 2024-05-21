@@ -8,7 +8,7 @@ const page = () => {
   const [courses , setCourses] =useState<object[]>([]);
 
   const fetchData = async() =>{
-    const res = await axios.post('http://localhost:3000/api/courses')
+    const res = await axios.post('https://how-to-aboard.vercel.app/api/courses')
     setCourses(res.data.data)
     console.log(res.data.data)
   }
