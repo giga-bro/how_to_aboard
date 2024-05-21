@@ -27,7 +27,7 @@ const page = () => {
                 <img className='w-[100%] h-[100%] ' src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/profilePics%2F1713803771785_google.png?alt=media&token=292e7b46-b323-4383-8c50-56a061d64d6c"  alt="" />
               </div>
               <div className='w-[100%] h-[50%]   flex flex-col p-[5%] ' >
-                <div className='w-[100%] h-[25%] text-center flex justify-center items-center font-bold text-md lg:text-2xl ' > <p>{course?.course_name}</p> </div>
+                <div className='w-[100%] h-[25%] text-center flex justify-center items-center font-bold text-md lg:text-lg ' > <p>{course?.course_name}</p> </div>
                 <div className='w-[100%] h-[25%] text-center flex justify-center items-center text-sm lg:text-xl italic ' > - {course?.organization}</div>
                 <div className='w-[100%] h-[25%] text-center flex justify-center items-center ' >Fees : {course?.enroll_fees}</div>
                 <div className='w-[100%] h-[25%] text-center flex justify-center items-center ' > Released on {course?.release_date} </div>
