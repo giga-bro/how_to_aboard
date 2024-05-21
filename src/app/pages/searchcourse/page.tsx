@@ -36,7 +36,7 @@ const page = () => {
   const [backupCourses, setBackupCourses] = useState<object[]>([{}])
   const fetchData = async () => {
     try {
-      const res = await axios.post('http://localhost:3000/api/universities')
+      const res = await axios.post('https://how-to-aboard.vercel.app/api/universities')
       console.log(res.data.data)
       setCourses(res.data.data)
       setBackupCourses(res.data.data)
