@@ -150,7 +150,7 @@ const page = () => {
   return (
     <>
       {!isMobile ? <>
-          <div className='w-[100%] h-[90%] flex justify-center items-center  '>
+        <div className='w-[100%] h-[90%] flex justify-center items-center  '>
           <div className='w-[30%] h-[100%]  flex justify-center items-center ' >
             <div className='w-[90%] h-[95%] py-[1%] flex flex-col justify-center items-center shadow-2xl rounded-2xl ' >
               <div className='w-[80%] h-[10%]  flex justify-start shadow-lg pl-[5%] items-center text-2xl rounded-lg cursor-pointer ' onClick={handleResetFilters} >
@@ -281,7 +281,6 @@ const page = () => {
               </div>
 
             </div>
-          </div>
           </div>
           <div className='w-[70%] h-[100%]  flex justify-center items-center overflow-y-scroll flex-wrap '>
             {courses.length > 0 && courses.map((course, index) => {
