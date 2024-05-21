@@ -1,0 +1,62 @@
+[
+    {
+        "course_name": "Introduction to Machine Learning",
+        "organization": "Stanford University",
+        "enroll_fees": "Free",
+        "release_date": "2023-01-15"
+    },
+    {
+        "course_name": "Data Science Fundamentals",
+        "organization": "Johns Hopkins University",
+        "enroll_fees": "$49",
+        "release_date": "2022-11-20"
+    },
+    {
+        "course_name": "Full Stack Web Development",
+        "organization": "University of London",
+        "enroll_fees": "$99",
+        "release_date": "2023-03-10"
+    },
+    {
+        "course_name": "Digital Marketing Specialization",
+        "organization": "University of Illinois",
+        "enroll_fees": "Free",
+        "release_date": "2022-09-05"
+    },
+    {
+        "course_name": "Introduction to Psychology",
+        "organization": "Yale University",
+        "enroll_fees": "$79",
+        "release_date": "2023-04-25"
+    },
+    {
+        "course_name": "Blockchain Basics",
+        "organization": "University at Buffalo",
+        "enroll_fees": "Free",
+        "release_date": "2023-02-28"
+    },
+    {
+        "course_name": "Creative Writing Specialization",
+        "organization": "Wesleyan University",
+        "enroll_fees": "$59",
+        "release_date": "2023-05-10"
+    },
+    {
+        "course_name": "Financial Markets",
+        "organization": "Yale University",
+        "enroll_fees": "$29",
+        "release_date": "2023-01-10"
+    },
+    {
+        "course_name": "Neural Networks and Deep Learning",
+        "organization": "DeepLearning.AI",
+        "enroll_fees": "$79",
+        "release_date": "2022-10-15"
+    },
+    {
+        "course_name": "Business Foundations",
+        "organization": "University of Pennsylvania",
+        "enroll_fees": "Free",
+        "release_date": "2023-03-20"
+    }
+]

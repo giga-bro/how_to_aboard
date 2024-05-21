@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .mobile-home-card{
+        flex-direction: column;
+    }
+}

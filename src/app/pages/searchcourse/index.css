@@ -1,0 +1,221 @@
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.noOfItemsDiv {
+  animation: slideDown 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  transform: 0.5s ease-out;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.noOfItemsDiv1 {
+  animation: slideUp 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  transform: 0.5s ease-out;
+}
+.mobile-course-card {
+  width: 100% !important;
+  height: 80em !important;
+}
+
+.course-card {
+  width: 90%;
+  
+  font-size: 0.6rem;
+  height: 100%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  background-color: #f3f4f6;
+}
+
+.course-info,
+.course-details,
+.additional-info {
+  width: 33%;
+  height: 100%;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-info .course-image {
+  width: 80%;
+  height: 20%;
+  border-radius: 0.5rem;
+  
+}
+
+.course-info p,
+.course-details p,
+.additional-info p {
+  width: 80%;
+  
+  height: 10%;
+}
+
+.course-name {
+  font-weight: bold;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.degree,
+.stream,
+.beginning-semester,
+.teaching-language,
+.german-grade-requirement {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.stream {
+  height: 30%;
+}
+
+.tuition-fee,
+.application-deadline,
+.last-updated {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.course-website,
+.submit-application {
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin: 2% 0;
+}
+
+.course-website {
+  background-color: #7e7ee5;
+  color: white;
+}
+
+.course-website:hover {
+  background-color: white;
+  color: #7e7ee5;
+  border: 1px solid #7e7ee5;
+}
+
+.submit-application {
+  background-color: white;
+  color: #7e7ee5;
+  border: 1px solid #7e7ee5;
+}
+
+.submit-application:hover {
+  background-color: #7e7ee5;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mobile-course-card{
+    width: 90% !important;
+    height: 60% !important;
+    
+    font-size: 0.6rem;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: #f3f4f6;
+
+  }
+  .mobile-course-container{
+    width: 33%;
+    height: 100%;
+    padding: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .applyFilterButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+  }
+  .filterIcon{
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+  .applyFiltersContainer{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .getBackBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right:10px;
+  }
+  .getBackIcon{
+    width: 30px;
+    height: 30px;
+    color: black;
+    transform: scaleX(-1);
+  }
+  
+}

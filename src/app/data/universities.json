@@ -1,0 +1,521 @@
+[
+    {
+        "university": "University of Music and Performing Arts Munich",
+        "world_ranking": 7453,
+        "germany_ranking": 228,
+        "city": "München",
+        "state": "Bavaria",
+        "course": {
+            "name": "Zither",
+            "degree": "Masters",
+            "stream": "Master of Music (M.Mus)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "90",
+            "application_deadline": "03/12/2022",
+            "last_updated": "06/11/2022",
+            "image_url": "https://howtoabroad.com/wp-content/uploads/2022/12/Hochschule-fur-Musik-und-Theater-Munchen.svg"
+        }
+    },
+    {
+        "university": "University of Music and Performing Arts Munich",
+        "world_ranking": 7453,
+        "germany_ranking": 228,
+        "city": "München",
+        "state": "Bavaria",
+        "course": {
+            "name": "Zither",
+            "degree": "Bachelor",
+            "stream": "Bachelor of Music (B.Mus)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 8,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "50",
+            "application_deadline": "03/12/2022",
+            "last_updated": "06/11/2022",
+            "image_url": "https://howtoabroad.com/wp-content/uploads/2022/12/Hochschule-fur-Musik-und-Theater-Munchen.svg"
+        }
+    },
+    {
+        "university": "Johannes Gutenberg University of Mainz",
+        "world_ranking": 219,
+        "germany_ranking": 19,
+        "city": "Mainz",
+        "state": "Rhineland-Palatinate",
+        "course": {
+            "name": "Young Professional Master of Business Administration",
+            "degree": "Masters",
+            "stream": "Master of Business Administration (MBA)",
+            "beginning_semester": "Summer",
+            "duration_semesters": 4,
+            "teaching_language": "English",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "50",
+            "application_deadline": "N/A",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/Johannes-Gutenberg-University.png"
+        }
+    },
+    {
+        "university": "Heinrich Heine University Dusseldorf",
+        "world_ranking": 380,
+        "germany_ranking": 33,
+        "city": "Düsseldorf",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Yiddish Culture, Language and Literature",
+            "degree": "Bachelor",
+            "stream": "Bachelor of Arts (BA)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 6,
+            "teaching_language": [
+                "English",
+                "German",
+                "Yiddish"
+            ],
+            "german_grade_requirement": "undefined",
+            "language_requirement": "B2/DSH-2",
+            "tuition_fee": "20",
+            "application_deadline": "10/07/2022",
+            "last_updated": "08/27/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/heinrich-heine-university-dusseldorf-heinrich-heine-universitatdusseldorfde-logo.png"
+        }
+    },
+    {
+        "university": "Heinrich Heine University Dusseldorf",
+        "world_ranking": 380,
+        "germany_ranking": 33,
+        "city": "Düsseldorf",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Yiddish Culture, Language and Literature",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "language_requirement": "DSH-2",
+            "tuition_fee": "10",
+            "application_deadline": "10/07/2022",
+            "last_updated": "08/27/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/heinrich-heine-university-dusseldorf-heinrich-heine-universitatdusseldorfde-logo.png"
+        }
+    },
+    {
+        "university": "Johannes Gutenberg University of Mainz",
+        "world_ranking": 219,
+        "germany_ranking": 19,
+        "city": "Mainz",
+        "state": "Rhineland-Palatinate",
+        "course": {
+            "name": "World Literature",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "language_requirement": "DSH-2",
+            "tuition_fee": "10",
+            "application_deadline": {
+                "summer": "03/01/2022",
+                "winter": "09/01/2023"
+            },
+            "last_updated": "02/21/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/Johannes-Gutenberg-University.png"
+        }
+    },
+    {
+        "university": "Brandenburg University of Technology Cottbus-Senftenberg",
+        "world_ranking": 1525,
+        "germany_ranking": 78,
+        "city": "Cottbus",
+        "state": "Brandenburg",
+        "course": {
+            "name": "World Heritage Studies",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 4,
+            "teaching_language": "English",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "40",
+            "application_deadline": "07/15/2022",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/university-of-koblenz-landau.png"
+        }
+    },
+    {
+        "university": "Bielefeld University",
+        "world_ranking": 436,
+        "germany_ranking": 39,
+        "city": "Bielefeld",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Workplace Health Management",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "60",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/BBielefeld.png"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Gießen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at secondary and junior high schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 7,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "70",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Gießen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at special needs schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 9,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "90",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    },
+    {
+        "university": "University of Rostock",
+        "world_ranking": 436,
+        "germany_ranking": 37,
+        "city": "Rostock",
+        "state": "Mecklenburg-Vorpommern",
+        "course": {
+            "name": "Work-Business-Technology",
+            "degree": "State Exam",
+            "stream": "Teaching post at grammar schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 10,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "30",
+            "last_updated": "01/17/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/University-of-Rostock.jpg"
+        }
+    },
+    {
+        "university": "University of Rostock",
+        "world_ranking": 436,
+        "germany_ranking": 37,
+        "city": "Rostock",
+        "state": "Mecklenburg-Vorpommern",
+        "course": {
+            "name": "Work-Business-Technology",
+            "degree": "State Exam",
+            "stream": "Teaching post at regional schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 10,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "20",
+            "last_updated": "01/17/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/University-of-Rostock.jpg"
+        }
+    },
+    {
+        "university": "Johannes Gutenberg University of Mainz",
+        "world_ranking": 219,
+        "germany_ranking": 19,
+        "city": "Mainz",
+        "state": "Rhineland-Palatinate",
+        "course": {
+            "name": "World Literature",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "25",
+            "application_deadline": {
+                "summer": "03/01/2022",
+                "winter": "09/01/2023"
+            },
+            "last_updated": null,
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/Johannes-Gutenberg-University.png"
+        }
+    },{
+        "university": "Johannes Gutenberg University of Mainz",
+        "world_ranking": 219,
+        "germany_ranking": 19,
+        "city": "Mainz",
+        "state": "Rhineland-Palatinate",
+        "course": {
+            "name": "World Literature",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "45",
+            "application_deadline": {
+                "summer": "03/01/2022",
+                "winter": "09/01/2023"
+            },
+            "last_updated": "02/21/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/Johannes-Gutenberg-University.png"
+        }
+    },
+    {
+        "university": "Brandenburg University of Technology Cottbus-Senftenberg",
+        "world_ranking": 1525,
+        "germany_ranking": 78,
+        "city": "Cottbus",
+        "state": "Brandenburg",
+        "course": {
+            "name": "World Heritage Studies",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 4,
+            "teaching_language": "English",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "60",
+            "application_deadline": {
+                "winter": "07/15/2022"
+            },
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/university-of-koblenz-landau.png"
+        }
+    },
+    {
+        "university": "Bielefeld University",
+        "world_ranking": 436,
+        "germany_ranking": 39,
+        "city": "Bielefeld",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Workplace Health Management",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "33",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/BBielefeld.png"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Gießen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at secondary and junior high schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 7,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "50",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Gießen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at special needs schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 9,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "70",
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    },
+    {
+        "university": "University of Rostock",
+        "world_ranking": 436,
+        "germany_ranking": 37,
+        "city": "Rostock",
+        "state": "Mecklenburg-Vorpommern",
+        "course": {
+            "name": "Work-Business-Technology",
+            "degree": "State Exam",
+            "stream": "Teaching post at grammar schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 10,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "80",
+            "last_updated": "01/17/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/University-of-Rostock.jpg"
+        }
+    },
+    {
+        "university": "Johannes Gutenberg University of Mainz",
+        "world_ranking": 219,
+        "germany_ranking": 19,
+        "city": "Mainz",
+        "state": "Rhineland-Palatinate",
+        "course": {
+            "name": "World Literature",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "90",
+            "application_deadline": {
+                "summer": "03/01/2022",
+                "winter": "09/01/2023"
+            },
+            "last_updated": "02/21/2023",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/Johannes-Gutenberg-University.png"
+        }
+    },
+    {
+        "university": "Brandenburg University of Technology Cottbus-Senftenberg",
+        "world_ranking": 1525,
+        "germany_ranking": 78,
+        "city": "Cottbus",
+        "state": "Brandenburg",
+        "course": {
+            "name": "World Heritage Studies",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter",
+            "duration_semesters": 4,
+            "teaching_language": "English",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "75",
+            "application_deadline": {
+                "winter": "07/15/2022"
+            },
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/09/university-of-koblenz-landau.png"
+        }
+    },
+    {
+        "university": "Bielefeld University",
+        "world_ranking": 436,
+        "germany_ranking": 39,
+        "city": "Bielefeld",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Workplace Health Management",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "67",
+            "application_deadline": null,
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/BBielefeld.png"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Gießen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at secondary and junior high schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 7,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "70",
+            "application_deadline": null,
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    },
+    {
+        "university": "Bielefeld University",
+        "world_ranking": 436,
+        "germany_ranking": 39,
+        "city": "Bielefeld",
+        "state": "North Rhine-Westphalia",
+        "course": {
+            "name": "Workplace Health Management",
+            "degree": "Masters",
+            "stream": "Master of Arts (MA)",
+            "beginning_semester": "Winter, Summer",
+            "duration_semesters": 4,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "37",
+            "application_deadline": {
+                "summer": "N/A",
+                "winter": "N/A"
+            },
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/04/BBielefeld.png"
+        }
+    },
+    {
+        "university": "University of Giessen",
+        "world_ranking": 359,
+        "germany_ranking": 29,
+        "city": "Giessen",
+        "state": "Hessen",
+        "course": {
+            "name": "Working Apprenticeship",
+            "degree": "LA",
+            "stream": "Teaching at special needs schools",
+            "beginning_semester": "Winter",
+            "duration_semesters": 9,
+            "teaching_language": "German",
+            "german_grade_requirement": "undefined",
+            "tuition_fee": "40",
+            "application_deadline": {
+                "summer": "N/A",
+                "winter": "N/A"
+            },
+            "last_updated": "06/11/2022",
+            "image_url": "https://i0.wp.com/howtoabroad.com/wp-content/uploads/2021/11/Justus-Liebig-University-Giessen-1.jpg"
+        }
+    }
+]
